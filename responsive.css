@@ -1,0 +1,310 @@
+@media screen and (min-width: 1000px) {
+	.navigation {
+	display: flex;
+	}
+
+	.navigation a{
+		display: block;
+		padding: 1em;
+	}
+
+	section {
+		display: flex;
+    	flex-wrap:wrap;
+		flex-direction: row;
+	}
+
+	.MOT-section {
+		width: 25%;
+	}
+
+	.MOT-section img{
+		max-width: 100%;
+	    height: auto;
+	}
+
+	.Servicing-section {
+		width: 25%;
+	}
+
+	.Servicing-section img{
+		max-width: 100%;
+	    height: auto;
+	}
+
+	.Mechanics-section{
+		width: 25%;
+	}
+
+	.Mechanics-section img{
+		max-width: 100%;
+		height: auto;
+	}
+
+	.Bodywork-section {
+		width: 25%;
+	}
+
+	.Bodywork-section img{
+		max-width: 100%;
+		height: auto;
+	}
+
+
+	.Tyre-section {
+		width: 25%;
+	}
+
+	.Tyre-section img{
+		max-width: 100%;
+		height: auto;
+	}
+
+	.Exhaust-section {
+		width: 25%;
+	}
+
+	.Exhaust-section img{
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 999px) {
+	.navigation {
+	display: flex;
+	}
+
+	.navigation a{
+		display: block;
+		padding: 1em;
+	}
+
+	section {
+		display: flex;
+    	flex-wrap:wrap;
+		flex-direction: row;
+	}
+
+	.MOT-section {
+		width: 33.3%;
+	}
+
+	.MOT-section img{
+		max-width: 100%;
+	    height: auto;
+	}
+
+	.Servicing-section {
+		width: 33.3%;
+	}
+
+	.Servicing-section img{
+		max-width: 100%;
+	    height: auto;
+	}
+
+	.Mechanics-section{
+		width: 33.3%;
+	}
+
+	.Mechanics-section img{
+		max-width: 100%;
+		height: auto;
+	}
+
+	.Bodywork-section {
+		width: 33.3%;
+	}
+
+	.Bodywork-section img{
+		max-width: 100%;
+		height: auto;
+	}
+
+
+	.Tyre-section {
+		width: 33.3%;
+	}
+
+	.Tyre-section img{
+		max-width: 100%;
+		height: auto;
+	}
+
+	.Exhaust-section {
+		width: 33.3%;
+	}
+
+	.Exhaust-section img{
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 849px) {
+	.navigation {
+	display: flex;
+	}
+
+	.navigation a{
+		display: block;
+		padding: 1em;
+	}
+
+	section {
+		display: flex;
+    	flex-wrap:wrap;
+		flex-direction: row;
+	}
+
+	.MOT-section {
+		width: 50%;
+	}
+
+	.MOT-section img{
+		max-width: 100%;
+	    height: auto;
+	}
+
+	.Servicing-section {
+		width: 50%;
+	}
+
+	.Servicing-section img{
+		max-width: 100%;
+	    height: auto;
+	}
+
+	.Mechanics-section{
+		width: 50%;
+	}
+
+	.Mechanics-section img{
+		max-width: 100%;
+		height: auto;
+	}
+
+	.Bodywork-section {
+		width: 50%;
+	}
+
+	.Bodywork-section img{
+		max-width: 100%;
+		height: auto;
+	}
+
+
+	.Tyre-section {
+		width: 50%;
+	}
+
+	.Tyre-section img{
+		max-width: 100%;
+		height: auto;
+	}
+
+	.Exhaust-section {
+		width: 50%;
+	}
+
+	.Exhaust-section img{
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 550px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+    
+	.navigation {
+	display: flex;
+	}
+
+	.navigation a{
+		display: block;
+		padding: 1em;
+	}
+
+	section {
+		display: flex;
+    	flex-wrap:wrap;
+		flex-direction: row;
+	}
+
+	.MOT-section {
+		width: 100%;
+	}
+
+	.MOT-section img{
+		max-width: 100%;
+	    height: auto;
+	}
+
+	.Servicing-section {
+		width: 100%;
+	}
+
+	.Servicing-section img{
+		max-width: 100%;
+	    height: auto;
+	}
+
+	.Mechanics-section{
+		width: 100%;
+	}
+
+	.Mechanics-section img{
+		max-width: 100%;
+		height: auto;
+	}
+
+	.Bodywork-section {
+		width: 100%;
+	}
+
+	.Bodywork-section img{
+		max-width: 100%;
+		height: auto;
+	}
+
+
+	.Tyre-section {
+		width: 100%;
+	}
+
+	.Tyre-section img{
+		max-width: 100%;
+		height: auto;
+	}
+
+	.Exhaust-section {
+		width: 100%;
+	}
+
+	.Exhaust-section img{
+		max-width: 100%;
+		height: auto;
+	}
+
+	.topnav a:not(:first-child) {display: none;}
+  	.topnav a.icon {
+    float: right;
+    display: block;
+  	}
+
+	.topnav.responsive {position: relative;}
+	.topnav.responsive .icon {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	}
+	.topnav.responsive a {
+	    float: none;
+	    display: block;
+	    text-align: left;
+	}
+}
